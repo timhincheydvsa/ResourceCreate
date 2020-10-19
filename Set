@@ -1,0 +1,16 @@
+echo "<html><body><h1>Welcome to Australia</h1></body></html>">"hostingstart.html"
+echo "<html><body><h1>Welcome to Europe</h1></body></html>">"hostingstart.html"
+echo "<html><body><h1>Welcome to Earth</h1></body></html>">"hostingstart.html"
+echo "<html><body><h1>Welcome to United Kingdom</h1></body></html>">"hostingstart.html"
+echo "<html><body><h1>Welcome to US California</h1></body></html>">"hostingstart.html"
+
+
+
+echo "<html><body><h1> Hello World! Real Master Page </h1></body></html>">"hostingstart.html"
+
+
+echo "<html><body><h1> Second Slot </h1></body></html>">"hostingstart.html"
+
+
+echo "<html><body><h1>Welcome to Cem's course My Dear Friends :) </h1></body></html>">"hostingstart.html"
+echo "<html><body><h1>Welcome to Cem's course My Dear Friends :) </h1></body></html>">"C:\inetpub\wwwroot\iisstart.htm"
