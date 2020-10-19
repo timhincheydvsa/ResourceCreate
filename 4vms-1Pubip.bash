@@ -10,9 +10,11 @@ L=westeurope
 VM01=VM01
 VM02=VM02
 VM03=VM03
+VM04=VM04
 Pip01=$(echo "$VM01"Pip)
 Pip02=$(echo "$VM02"Pip)
 Pip03=$(echo "$VM03"Pip)
+Pip04=$(echo "$VM04"Pip)
 AP="10.207.0.0/16"
 SN01="10.207.1.0/24"
 user=cem
@@ -37,7 +39,11 @@ az network vnet subnet update -g $RG --vnet-name $VNet -n $SUBNETN --network-sec
 
 az vm create --resource-group $RG -n $VM01 -l $L --image Win2019DataCenter --admin-username $user --admin-password $pass --size $size1 --subnet $SUBNETID --boot-diagnostics-storage $D --license-type Windows_Server --nsg "" --no-wait
 az vm create --resource-group $RG -n $VM02 -l $L --image Win2019DataCenter --admin-username $user --admin-password $pass --size $size1 --subnet $SUBNETID --boot-diagnostics-storage $D --license-type Windows_Server --nsg "" --no-wait
-az vm create --resource-group $RG -n $VM03 -l $L --image Win2019DataCenter --admin-username $user --admin-password $pass --size $size1 --subnet $SUBNETID --boot-diagnostics-storage $D --license-type Windows_Server --nsg "" 
+az vm create --resource-group $RG -n $VM03 -l $L --image Win2019DataCenter --admin-username $user --admin-password $pass --size $size1 --subnet $SUBNETID --boot-diagnostics-storage $D --license-type Windows_Server --nsg "" --no-wait
+az vm create --resource-group $RG -n $VM04 -l $L --image Win2019DataCenter --admin-username $user --admin-password $pass --size $size1 --public-ip-address $Pip04 --public-ip-address-allocation static --subnet $SUBNETID --boot-diagnostics-storage $D --license-type Windows_Server --nsg ""
+
+
+#
 
 
 #
