@@ -6,7 +6,13 @@
            chmod +x Add-LinuxVm.bash
            ./Add-LinuxVm.bash
            #
-        ```
+        
+        ```       
+       
+       
+       
+       ```sh
+                ```
         
 when prompted, type **yes** and hit enter        
 
