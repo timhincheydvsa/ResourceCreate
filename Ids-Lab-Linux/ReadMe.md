@@ -2,13 +2,16 @@
 
 ```sh
     curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/Add-LinuxVm.bash
+    curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/connect.bash
     ls -la Add-LinuxVm.bash
     chmod +x Add-LinuxVm.bash
+    chmod +x connect.bash
     ./Add-LinuxVm.bash
     #
     
 ```       
 when prompted, type **yes** and hit enter and use the password **1q2w3e4r5t6y*** to reach the console 
+
 
 
 > **Note:**  You will connect to Linux VM's console on Azure CLI. You can use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) if you prefer. 
