@@ -1,10 +1,10 @@
-curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/AzCliSet.bash
+curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/Add-LinuxVm.bash
 
-ls -la AzCliSet.bash
+ls -la Add-LinuxVm.bash
 
-chmod +x AzCliSet.bash
+chmod +x Add-LinuxVm.bash
 
-./AzCliSet.bash
+./Add-LinuxVm.bash
 
 
 
