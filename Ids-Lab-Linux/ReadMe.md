@@ -7,6 +7,9 @@ chmod +x Add-LinuxVm.bash
 ./Add-LinuxVm.bash
 
 
+Connect to Linux VM 
+
+ssh 
 
 
 
