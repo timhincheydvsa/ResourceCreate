@@ -1,0 +1,20 @@
+az keyvault secret show --name cemo --vault-name cvaz211302kv --query value
+
+az keyvault secret show --id https://cvaz211302kv.vault.azure.net/secrets/cemo/bbcdafa6d7bb4fc9b4ea5a1a21e08938       
+
+
+az keyvault secret show --id https://cvaz211302kv.vault.azure.net/secrets/cemo/bbcdafa6d7bb4fc9b4ea5a1a21e08938 --query value
+
+
+az login --identity --allow-no-subscriptions
+
+
+
+az login --identity -u /subscriptions/007617ec-a3b6-47b5-a869-ebbe10cf016a/resourcegroups/KVTest/providers/Microsoft.ManagedIdentity/userAssignedIdentities/midz --allow-no-subscriptions
+
+
+
+/subscriptions/007617ec-a3b6-47b5-a869-ebbe10cf016a/resourcegroups/Linuxs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/midheo
+
+
+
