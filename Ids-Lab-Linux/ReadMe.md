@@ -1,6 +1,6 @@
 ### Run the Command below to create a Linux VM and connect
 
-        ```sh
+        ```pwsh
          curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/Add-LinuxVm.bash
          ls -la Add-LinuxVm.bash
          chmod +x Add-LinuxVm.bash
