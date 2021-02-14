@@ -29,3 +29,11 @@ Run the command down below to Install Azure CLI to remote Linux VM
            ./AzCliSet.bash
            #
        ```
+```sh
+    curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/AzCliSet.bash
+    ls -la AzCliSet.bash
+    chmod +x AzCliSet.bash
+    ./AzCliSet.bash
+    #
+```       
+    
