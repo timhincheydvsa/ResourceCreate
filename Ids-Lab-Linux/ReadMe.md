@@ -1,21 +1,18 @@
-Run the Command below to create a Linux VM and connect
+### Run the Command below to create a Linux VM and connect
 
-```sh
-    curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/Add-LinuxVm.bash
-    ls -la Add-LinuxVm.bash
-    chmod +x Add-LinuxVm.bash
-    ./Add-LinuxVm.bash
-    #
+        ```sh
+         curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/Add-LinuxVm.bash
+         ls -la Add-LinuxVm.bash
+         chmod +x Add-LinuxVm.bash
+         ./Add-LinuxVm.bash
+         #
 
-```
-
-
-
+        ```
 Use the password 1q2w3e4r5t6y*
 
-If you prefer to Connect with Putty you can download click to download 
 
-ssh cem@$I
+**Note:**  You will connect to Linux VM's console on Azure CLI. 
+           If you prefer to Connect with Putty you can download click to download 
 
 
 
