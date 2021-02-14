@@ -5,7 +5,7 @@
     ls -la Add-LinuxVm.bash
     chmod +x Add-LinuxVm.bash
     ./Add-LinuxVm.bash
-    #
+    
 ```       
         
 when prompted, type **yes** and hit enter        
@@ -27,6 +27,6 @@ Run the command down below to Install Azure CLI to remote Linux VM
     ls -la AzCliSet.bash
     chmod +x AzCliSet.bash
     ./AzCliSet.bash
-    #
+    
 ```       
     
