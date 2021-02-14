@@ -9,7 +9,7 @@ chmod +x Add-LinuxVm.bash
 
 Connect to Linux VM 
 
-ssh 
+ssh cem@$I
 
 
 
