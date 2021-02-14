@@ -14,8 +14,9 @@ when prompted, type **yes** and hit enter
 Use the password **1q2w3e4r5t6y*** to reach the console 
 
 
-**Note:**  You will connect to Linux VM's console on Azure CLI. 
-           You can use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) if you prefer. 
+> **Note:**  You will connect to Linux VM's console on Azure CLI. 
+
+> You can use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) if you prefer. 
 
 
 On Linux VM Session, either Azure Interface, or Putty;
