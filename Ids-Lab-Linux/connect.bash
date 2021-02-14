@@ -1,3 +1,4 @@
+RG=Linuxs
 VM01=Linux01
 Pip01=$(echo "$VM01"Pip)
 E=$(az network public-ip show -g $RG -n $Pip01 --query "{address: ipAddress}")
