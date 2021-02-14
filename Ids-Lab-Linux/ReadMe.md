@@ -1,5 +1,5 @@
-curl -O https://raw.githubusercontent.com/cemvarol/AZ-400-JenkinsLab/master/JenVm.bash
-ls -la JenVm.bash
-chmod +x JenVm.bash
-./JenVm.bash
+curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/AzCliSet.bash
+ls -la AzCliSet.bash
+chmod +x AzCliSet.bash
+./AzCliSet.bash
 #
