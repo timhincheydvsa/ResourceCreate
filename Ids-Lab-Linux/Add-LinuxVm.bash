@@ -39,14 +39,13 @@ az identity create -g $RG --name mid01
 az vm identity assign -g $RG --name $VM01 --identities $mid
 
 
-E=$(az network public-ip show -g $RG -n $Pip01 --query "{address: ipAddress}")
-
 
 E=$(az network public-ip show -g $RG -n $Pip01 --query "{address: ipAddress}")
 F=${E:$(echo `expr index "$E" :`)}
 G=${F:$(echo `expr index "$F" '"'`)}
 H=${G:: -3}
 
+ssh cem@$H
 
 #
 
