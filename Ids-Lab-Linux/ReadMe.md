@@ -1,4 +1,4 @@
-    ```powershell
+```sh
     curl -O https://raw.githubusercontent.com/cemvarol/ResourceCreate/main/Ids-Lab-Linux/Add-LinuxVm.bash
 
     ls -la Add-LinuxVm.bash
@@ -8,7 +8,7 @@
     ./Add-LinuxVm.bash
     #
 
-    ```
+```
 
 
 
