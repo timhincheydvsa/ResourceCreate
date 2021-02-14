@@ -8,7 +8,10 @@
          #
 
         ```
-Use the password 1q2w3e4r5t6y*
+        
+when prompted, type **yes** and hit enter        
+
+Use the password **1q2w3e4r5t6y*** to reach the console 
 
 
 **Note:**  You will connect to Linux VM's console on Azure CLI. 
